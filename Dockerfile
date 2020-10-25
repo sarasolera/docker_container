@@ -4,6 +4,7 @@ FROM node:10-alpine
 LABEL maintainer="Sara Solera"
 
 # instalar node en alpine
+# para la ejecucion de diferentes
 # RUN apk add --update nodejs nodejs-npm
 
 
