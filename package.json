@@ -1,0 +1,28 @@
+{
+  "name": "prueba",
+  "version": "1.0.0",
+  "description": "pruebas",
+  "main": "serie.js",
+  "directories": {
+    "doc": "docs",
+    "test": "tests"
+  },
+  "scripts": {
+    "start": "node src/catalogo.js",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sarasolera/pruebasIV.git"
+  },
+  "author": "sara solera",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sarasolera/pruebasIV/issues"
+  },
+  "homepage": "https://github.com/sarasolera/pruebasIV#readme",
+  "devDependencies": {
+    "jest": "^26.5.3",
+    "mocha": "^8.1.3"
+  }
+}
