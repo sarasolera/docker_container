@@ -19,8 +19,6 @@ RUN npm install
 COPY src ./src
 # copiamos codigo test
 COPY tests ./test
-
-
 # para ejecutar los test
 RUN  npm test
 
