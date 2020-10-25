@@ -42,7 +42,7 @@ cat.series[7].sumarPuntos(9); //PUNTUACION 9
 describe('Testeando clase Catalogo' , ()=>{
     describe('Crea objeto Serie', ()=>{
         test('Crea',()=>{
-        expect(new Catalogo()).toBeInstanceOf(int);
+        expect(new Catalogo()).toBeInstanceOf(Catalogo);
         });
        
     });
