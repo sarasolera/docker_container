@@ -20,6 +20,6 @@ COPY src ./src
 # copiamos codigo test
 COPY tests ./test
 # para ejecutar los test
-CMD["npm","test"]
+CMD ["npm","test"]
 
 
